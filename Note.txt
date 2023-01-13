@@ -1,0 +1,12 @@
+
+For the demostration purpose, this app is used NodeJS and postman softwares. 
+
+NodeJS is acted as a middleware and simply this create an alert about the emergencies. 
+
+Postman is used test the notification from the API end point. Mobile app is checking wether there is an alert from the NodeJS by calling,
+ "new HttpCall().execute("http://192.168.43.19:3000/");"  in main activity. 
+
+This URL is changed according to the device. 
+
+Codes for NodeJS is also added here. 
+
